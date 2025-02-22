@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Liter&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Todhri&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:wght@300..800&family=Oswald&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75,100..900;1,75,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Smooch+Sans:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@layer base{
+  .centerDiv{
+    @apply w-[80%] m-auto
+  }
+  .mainTitle{
+    @apply text-[2.5rem]
+  }
+}
+@layer components{
+  .btn{
+    @apply bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded uppercase
+  }
+}
+@layer utilities{}
+/* FONTS STYLE  */
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+}
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.noto-serif-todhri-regular {
+  font-family: "Noto Serif Todhri", serif;
+  font-weight: 700;
+  font-style: normal;
+}

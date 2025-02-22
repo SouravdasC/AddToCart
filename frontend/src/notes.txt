@@ -1,0 +1,7 @@
+<button onClick={() => dispatch(removeFromCart(item))}>
+              Remove
+            </button>
+
+            {cartItems?.length > 0 && (
+        <button onClick={() => dispatch(clearCart())}>Clear Cart</button>
+      )}
